@@ -1,1 +1,121 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Support</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li:before {
+            content: '✔';
+            position: absolute;
+            left: 0;
+            color: green;
+        }
+        .contact {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lexi Learn Support</h1>
+        <p>Welcome to the support page for Lexi Learn. 
+            Below you will find information and resources to help you troubleshoot any issues you may encounter.</p>
+
+        <h2>Frequently Asked Questions</h2>
+        <ul>
+            <li>How do the cards work?</li>
+            <li>Do word request failures still use my cards?</li>
+            <li>Why are my word requests not working?</li>
+            <li>How do I reset my password?</li>
+            <li>How do I contact customer support?</li>
+        </ul>
+
+        <h2>How do the cards work?</h2>
+        <p>When you buy cards, they work to support a response from Lexi.
+            Lexi is a busy AI and most of the money goes to supporting the costs of keeping the AI alive.
+            The costs are subject to change over time depending on the econonmy and usage.
+            When you create a request in the word "search" box and lexi responds with a card - this consumes one card.
+            When you click "refresh" on a word card, this will consume one card.
+        </p>
+
+        <h2>Do word request failures still use my cards?</h2>
+        <p>
+            No.
+            But if you think they did, please contact support!
+        </p>
+        
+        <h2>Why are my word requests not working?</h2>
+        <p>Sometimes Lexi (the AI) cannot find the specific answeres for the specific words you're requesting.
+            It will usually tell you why it cannot find the answer in an alert dialog.
+            Sometimes repeating the query once or twice can make it "think harder" but ultimately it sometimes still results in failure.
+            If you're having an issue that you don't believe should be happing, please contact support.
+        </p>
+
+        <h2>Reset Your Password</h2>
+        <p>To reset your app, when the app opens up, 
+            click the button on the bottom of the login "Forgot password?" 
+            and it will walk you through the steps.
+
+            If you're still having issues, please contact support.
+        </p>
+
+        <h2>Contact Customer Support</h2>
+        <p>If you can't find the answer to your question, please contact us:</p>
+        <div class="contact">
+            <p>Email: <a href="mailto:lexilearnhelp@gmail.com">lexilearnhelp@gmail.com</a></p>
+            <!-- <p>Phone: (123) 456-7890</p> -->
+        </div>
+
+        <footer>
+            <p>&copy; 2024 Lexi Learn. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
